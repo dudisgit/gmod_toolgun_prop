@@ -1,0 +1,125 @@
+{
+    "hardware": {
+        "invert_button": true,
+        "screen_flip_horizontal": true,
+        "screen_flip_vertical": true,
+        "spin_duration": 0.3,
+        "flash_duration": 0.5,
+        "switch_pin": 4,
+        "led_pin": 5,
+        "motor_pin": 17,
+        "screen_refresh": 10
+    },
+    "sounds": {
+        "next": "wpn_moveselect.wav",
+        "equip": "wpn_hudoff.wav",
+        "startup": "ammo_pickup.wav"
+    },
+    "refresh_rate": 40,
+    "default_background": "background_fix.png",
+    "text_scroll_y": 90,
+    "font": "coolvetica rg.ttf",
+    "font_size": 64,
+    "sleep_timeout": 60,
+
+    "tool_change_timeout": 1,
+    "tools": [
+        {
+            "name": "Weld",
+            "descriptions": [null, "Select another object to\n weld too"],
+            "sounds": ["toolgun_fire_1.wav", "toolgun_fire_2.wav"]
+        },
+        {
+            "name": "Rope",
+            "descriptions": [null, "Select another object to\n rope too"],
+            "sounds": ["toolgun_fire_1.wav", "toolgun_fire_2.wav"]
+        },
+        {
+            "name": "Paint",
+            "sounds": ["sprayer.wav"],
+            "sound_replay": 0.075,
+            "sound_overlap": false,
+            "hold": false,
+            "motor": false
+        },
+        {
+            "name": "Undo",
+            "descriptions": [null, "Whoops, time to undo that"],
+            "sounds": ["undo.wav"],
+            "motor": false
+        },
+        {
+            "name": "Remover",
+            "descriptions": [null, "Point at what you want removed"],
+            "sounds": ["toolgun_fire_1.wav", "toolgun_fire_2.wav"],
+            "motor": true
+        },
+        {
+            "name": "Deny",
+            "descriptions": [null, "No"],
+            "sounds": ["Deny.wav"],
+            "motor": false
+        },
+        {
+            "name": "Medshot",
+            "descriptions": [null, "Have a medkit!"],
+            "sounds": ["medshot4.wav"]
+        },
+        {
+            "name": "Battery",
+            "descriptions": [null, "Baadummmm"],
+            "sounds": ["battery_pickup.wav"]
+        },
+                {
+            "name": "Suit_Deny",
+            "descriptions": [null, "Low Beep"],
+            "sounds": ["suit_denydevice.wav"],
+            "motor": false
+        },
+        {
+            "name": "Wire",
+            "descriptions": [null, "Select another object to\n wire too"],
+            "sounds": ["toolgun_fire_1.wav", "toolgun_fire_2.wav"]
+        },
+        {
+            "name": "Ragdoll",
+            "descriptions": [null, "Let the bodies hit the floor"],
+            "sounds": ["gmod_ragdoll.wav"],
+            "sound_overlap": false,
+            "hold": false,
+            "motor": true
+        },
+        {
+            "name": "Death",
+            "descriptions": [null, "You are dead!\n Not big surprise"],
+            "sounds": ["death.wav"],
+            "sound_overlap": false,
+            "hold": false,
+            "motor": false
+        },
+        {
+            "name": "Freeman",
+            "descriptions": [null, "Lets go save the world"],
+            "sounds": ["hl1_song11.wav"],
+            "sound_overlap": false,
+            "hold": false,
+            "motor": false
+        },
+        {
+            "name": "Submix0",
+            "descriptions": [null, "Listen to the beat"],
+            "sounds": ["hl2_song20_submix0.wav"],
+            "sound_overlap": false,
+            "hold": false,
+            "motor": false
+        },
+        {
+            "name": "Scientists",
+            "descriptions": [null, "LET THEM SCREAM!"],
+            "sounds": ["HL1_scientist_screams.wav"],
+            "sound_overlap": false,
+            "hold": false,
+            "motor": false
+        }
+    ]
+}

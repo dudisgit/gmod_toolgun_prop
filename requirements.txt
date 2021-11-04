@@ -1,0 +1,5 @@
+Pillow
+simpleaudio
+numpy
+RPi.GPIO
+spidev
